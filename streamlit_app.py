@@ -3,7 +3,7 @@ import numpy as np
 import librosa
 import pickle
 import tempfile
-from tensorflow.keras.models import load_model as keras_load_model
+from tensorflow.keras.models import load_model 
 
 st.set_page_config(
     page_title="Speech Emotion Recognition",
@@ -12,7 +12,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_ser_model():
-    return keras_load_model("Emotion_Model.h5")
+    return load_model("Emotion_Model.keras", compile=False)
 
 @st.cache_resource
 def load_labels():
