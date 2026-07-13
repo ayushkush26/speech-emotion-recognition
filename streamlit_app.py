@@ -99,3 +99,22 @@ if uploaded_file is not None:
     st.subheader("Prediction Probabilities")
 
     st.bar_chart(probabilities)
+
+st.markdown("---")
+
+st.markdown(
+    """
+    <div style="text-align:center;">
+        <h4>Developed by Ayush Kush</h4>
+        <p>
+            🚀 TensorFlow &nbsp; | &nbsp;
+            🎈 Streamlit &nbsp; | &nbsp;
+            🎵 Librosa
+        </p>
+        <p style="color:gray;">
+            Speech Emotion Recognition using Deep Learning
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
