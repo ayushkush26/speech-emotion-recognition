@@ -46,7 +46,7 @@ def extract_features(audio_path):
 def predict_emotion(audio_path):
     feats = extract_features(audio_path)
 
-    expected_len = model.input_shape[1]
+    expected_len = model.input_shape[-2]
 
     padded = np.zeros(expected_len)
 
