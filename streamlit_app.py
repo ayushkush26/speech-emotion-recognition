@@ -108,6 +108,7 @@ st.markdown(
         <h4>Developed by Ayush Kush</h4>
         <br><br>
         <a href="https://github.com/ayushkush26" target="_blank">GitHub</a> 
+<br><br>
         <p>
             🚀 TensorFlow &nbsp; | &nbsp;
             🎈 Streamlit &nbsp; | &nbsp;
